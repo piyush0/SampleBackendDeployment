@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/api', function (req, res) {
-    res.send('Hello from api. hiusdfahjfsadjkds')
+    res.send('Hello from api.')
 })
 
 app.listen(PORT, function () {
