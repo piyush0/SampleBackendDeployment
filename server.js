@@ -12,6 +12,6 @@ app.get('/api', function (req, res) {
     res.send('Hello from api. hiusdfahjfsadjkds')
 })
 
-app.listen(process.env.PORT, function () {
+app.listen(PORT, function () {
     console.log('Your app is listening on port ' + PORT);
 });
